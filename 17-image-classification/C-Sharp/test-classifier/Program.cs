@@ -3,8 +3,6 @@ using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction;
 
-// dotnet add package Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction --version 2.0.0
-
 namespace test_classifier
 {
     class Program

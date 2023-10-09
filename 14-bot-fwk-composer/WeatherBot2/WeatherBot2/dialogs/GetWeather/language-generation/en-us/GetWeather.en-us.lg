@@ -1,0 +1,23 @@
+[import](common.lg)
+
+# TextInput_Prompt_6xAoLT()
+[Activity
+    Text = ${TextInput_Prompt_6xAoLT_text()}
+]
+
+# TextInput_Prompt_6xAoLT_text()
+- Enter your city.
+# SendActivity_j6jtpE()
+[Activity
+    Text = ${SendActivity_j6jtpE_text()}
+]
+
+# SendActivity_j6jtpE_text()
+- The weather in ${dialog.city} is ${dialog.weather} and the temperature is ${dialog.temp}&deg;.
+# SendActivity_IEJWG6()
+[Activity
+    Text = ${SendActivity_IEJWG6_text()}
+]
+
+# SendActivity_IEJWG6_text()
+- I got an error: ${dialog.api_response.content.message}.
